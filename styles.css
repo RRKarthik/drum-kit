@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("background.jpeg");
+    min-height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    
+}  
+#main{
+   
+    text-align: center;
+}
+.key{
+    width: 100px;
+    float: left;
+    border: solid black 3px;
+    margin-left: 20px;
+    transition: all 0.07s; 
+    background-color: rgba(0,0,0,0.6);
+}
+.letter{
+    color:white;
+}
+.name{
+    color:gold;
+}
+.playing{
+    transform:scale(1.1);
+    border-color:#ffc600;
+    box-shadow:0 0 0px #ffc600;
+}
